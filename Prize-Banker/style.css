@@ -1,0 +1,98 @@
+body {background: url(images/bg.png) repeat-x; font-size:12px; color:#000;font-weight:bold; padding:0px; margin:0px; font-family:tahoma;}
+
+.link {font-size:11px; color:#006cda;line-height:20px; text-decoration:none}
+.link:hover {text-decoration:underline;}
+
+#main {width: 1007px; margin: auto;}
+#main2 {width: 980px; margin: 0px 0px 0px 0px; float: left;}
+
+#header {background:url(images/header.jpg) no-repeat; width:980px; height:200px; padding: 0px; margin: 0px; float:left;}
+#menu {width:980px; height:50px; padding: 0px; margin: 0px;float: right; background: url(images/menu-slider.png) 533px 0px no-repeat;}
+#menu ul {list-style: none; padding: 0px; margin: 0px;}
+#menu ul li {display: inline; padding: 0px; margin: 0px;}
+#menu ul li a {color:#004022; padding: 0px 10px 0px 10px; margin: 12px 0px 0px 0px; float:right; line-height:30px; height:30px; text-decoration:none;}
+
+#content {width:980px; min-height:650px; padding: 0px; margin: 3px 0px 10px 0px; float:left;}
+#content .left-panel {width:640px; height:650px; padding: 0px; margin: 0px 10px 0px 10px; float:left;}
+#content .left-panel .anouncement-title {width:600px; height:30px; padding: 0px; margin: 20px 20px 0px 20px; float:left;font-size:26px; color:#3499ff; text-align:center;text-transform:uppercase;}
+#content .left-panel .anouncement-desc {width:620px; min-height:50px; padding: 0px; margin: 10px 10px 15px 10px; float:left;color:#333; text-align:justify; line-height:16px;}
+#content .left-panel .cause-label {width:220px; height:26px; padding: 0px; margin: 0px 10px 0px 10px; float:left;color:#3499ff;line-height:26px; font-size:18px;}
+#content .left-panel .cause-field {width:388px; height:26px; padding: 3px 5px 3px 5px; margin: 0px 10px 0px 0px; float:left;color:#084684;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#content .left-panel .donates {background:url(images/donates.jpg) no-repeat; width:630px; height:410px; padding: 0px; margin: 15px 5px 0px 5px; float:left;}
+#content .left-panel .donates .fields {width:630px; height:100px; padding: 0px; margin: 281px 0px 0px 0px; float:left;}
+#content .left-panel .donates .fields .option1 {width:150px; height:100px; padding: 0px; margin: 0px 0px 0px 25px; float:left;}
+#content .left-panel .donates .fields .option2 {width:150px; height:100px; padding: 0px; margin: 0px 0px 0px 50px; float:left;}
+#content .left-panel .donates .fields .option3 {width:175px; height:85px; padding: 15px 0px 0px 0px; margin: 0px 0px 0px 50px; float:left;}
+#content .left-panel .donates .fields .donate-field {background-color:transparent; width:140px; height:20px; padding: 0px; margin: 6px 5px 5px 7px; float:left; border:none; font-weight:bold;}
+#content .left-panel .donates .fields .donate-button {background:url(images/donate-button.png) no-repeat; width:92px; height:26px; padding: 0px; margin: 10px 29px 5px 29px; float:left; border:none; cursor:pointer;}
+#content .left-panel .donates .fields .donate-button2 {background:url(images/donate-button.png) no-repeat; width:92px; height:26px; padding: 0px; margin: 15px 42px 5px 42px; float:left; border:none; cursor:pointer;}
+
+#content .right-panel {background:url(images/right-panel.png) no-repeat; width:304px; height:673px; padding: 0px; margin: 0px 10px 0px 0px; float:right;}
+#content .right-panel .anouncement-title {width:244px; height:22px; padding: 0px; margin: 90px 30px 0px 30px; float:left;font-size:22px; line-height:22px; color:#3499ff; text-align:center;text-transform:uppercase;}
+#content .right-panel .anouncement-desc {width:264px; min-height:120px; padding: 0px; margin: 10px 20px 10px 20px; float:left;color:#555; text-align:justify; line-height:16px;}
+#content .right-panel .total-funding {width:264px; height:30px; padding: 0px; margin: 10px 20px 10px 20px; float:left;color:#666; line-height:30px; font-size:29px;letter-spacing:1px; text-align:center;}
+#content .right-panel .total-funding-amount {width:264px; height:48px; padding: 0px; margin: 0px 20px 10px 20px; float:left;color:#cc0000; line-height:48px;  font-size:42px; font-family:impact; font-weight:normal; text-align:center;}
+#content .right-panel .seprator {background:#cdcdcd; width:244px; height:2px; padding: 0px; margin: 10px 30px 10px 30px; float:left;}
+#content .right-panel .prize-awarded {width:264px; height:60px; padding: 0px; margin: 10px 20px 10px 20px; float:left;color:#666; line-height:30px; font-size:24px;text-align:center}
+#content .right-panel .prize-awarded-amount {width:264px; height:48px; padding: 0px; margin: 0px 20px 10px 20px; float:left;color:#cc0000; line-height:48px; font-size:40px; font-family:impact; font-weight:normal; text-align:center;}
+
+#footer-bg {background:url(images/footer-bg.png) repeat-x; width: 100%; margin: auto; float:left;}
+#footer-main {background:url(images/footer-bg.png) repeat-x; width: 1007px; margin: auto; }
+#footer-main2 {width: 980px; margin: 0px 0px 10px 0px; float: left; height:111px;}
+
+#socials {width:980px; height:50px; padding: 0px; margin: 0px; float:left;}
+#socials .tw, .fb, .li, .yt, .pi, .in, .cm {background:url(images/socials.png) 0% 0% no-repeat; width:32px; height:32px; padding: 0px; margin: 11px 7px 0px 7px; float:right;}
+#socials .fb {background:url(images/socials.png) 17% 0% no-repeat; }
+#socials .li {background:url(images/socials.png) 34% 0% no-repeat; }
+#socials .yt {background:url(images/socials.png) 50% 0% no-repeat; }
+#socials .pi {background:url(images/socials.png) 65% 0% no-repeat; }
+#socials .in {background:url(images/socials.png) 83% 0% no-repeat; }
+#socials .cm {background:url(images/socials.png) 100% 0% no-repeat; }
+
+#footer {width:980px; height:20px; padding: 0px; margin: 20px 0px 0px 0px; float:left; font-size:11px; color:#006cda;line-height:20px;}
+#footer a {font-size:11px; color:#006cda;line-height:20px; text-decoration:none}
+#footer a:hover {text-decoration:underline;}
+
+#terms {width:980px; min-height:350px; padding: 0px; margin: 10px 0px 10px 0px; float:left;}
+#terms .title {width:980px; padding: 0px; margin: 10px 0px 10px 0px; float:left;color:#3499ff; font-size:18px}
+#terms .descrip {width:980px; padding: 0px; margin: 0px 0px 10px 0px; float:left;text-align:justify; color:#333;font-weight:normal;line-height:18px;}
+
+#invite {width:640px; min-height:350px; padding: 0px; margin: 10px 0px 10px 0px; float:left;}
+#invite .title {width:640px; padding: 0px; margin: 10px 0px 10px 0px; float:left;color:#3499ff; font-size:18px}
+#invite .descrip {width:640px; padding: 0px; margin: 0px 0px 10px 0px; float:left; color:#333; line-height:18px;}
+#invite .name-sec {width:90px; min-height:20px; padding: 0px; margin: 10px 0px 10px 0px; float:left;}
+#invite .name-label {width:90px; 30; padding: 0px; margin: 0px 0px 10px 0px; float:left;line-height:30px; font-size:12px; color:#0066cc}
+#invite .field1-sec {width:180px; min-height:20px; padding: 0px; margin: 10px 0px 10px 0px; float:left; }
+#invite .field1 {width:170px; height:22px; padding: 3px 5px 3px 5px; margin: 0px 10px 10px 0px; float:left;color:#333;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#invite .email-sec {width:50px; min-height:20px; padding: 0px; margin: 10px 0px 10px 20px; float:left; }
+#invite .email-label {width:50px; padding: 0px; margin: 0px 0px 10px 0px; float:left;line-height:30px; font-size:12px; color:#0066cc}
+#invite .field2-sec { width:290px; min-height:20px; padding: 0px; margin: 10px 0px 10px 0px; float:left;}
+#invite .field2 {width:280px; height:22px; padding: 3px 5px 3px 5px; margin: 0px 10px 10px 0px; float:left;color:#333;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#invite .title-sec {width:100px; min-height:350px; padding: 0px; margin: 10px 20px 10px 0px; float:left; }
+#invite .title-label {width:100px; padding: 0px; margin: 0px 0px 10px 0px; float:left;line-height:30px; font-size:12px; color:#0066cc}
+#invite .title-label .imp {float:left; font-size:10px; color:#cc0000; margin: 0px 3px 0px 0px;}
+#invite .field3-sec {width:520px; min-height:350px; padding: 0px; margin: 10px 0px 10px 0px; float:left;}
+#invite .field3 {width:510px; height:22px; padding: 3px 5px 3px 5px; margin: 0px 10px 10px 0px; float:left;color:#333;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#invite .txt-area {width:510px; height:210px; padding: 3px 5px 3px 5px; margin: 0px 10px 10px 0px; float:left;color:#333;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#invite  .drop {width:520px; height:30px; padding: 5px 5px 3px 5px; margin: 0px 10px 10px 0px; float:left;color:#084684;border:1px solid #999;border-radius:4px;font-weight:bold;}
+#invite .field4-sec {width:290px; height:40px; padding: 0px; margin: 0px 8px 10px 0px; float:right;}
+
+
+.vip-table { margin:0px; float:left; border-collapse:collapse;}
+.vip-table td { padding-left:8px; color:#333333;}
+.vip-table th { padding-left:8px; color:#fff;}
+
+.button {background: url(images/button.png) no-repeat; width: 120px; height: 40px; padding: 0px; margin: 0px; float: right; border: none; color: #006cda;font-weight: bold; cursor: pointer;}
+
+.main-video1 {background: #ffffff; width:944px; height:574px; padding: 0px; margin: 10px 0px 0px 15px; float:left; border: 3px solid #cacaca;}
+.main-video2 {background: #eeeeee; width:934px; height:564px; padding: 0px; margin: 5px 0px 0px 5px; float:left;}
+.main-video3 {background: #ffffff; width:878px; height:504px; padding: 0px; margin: 27px 0px 0px 25px; float:left; border: 3px solid #cacaca;}
+.youtube-video {width:853px; height:480px; padding: 0px; margin: 10px 0px 0px 10px; float:left; border: 2px solid #cacaca;}
+
+.videos-list {background: #eee; width:826px; height:146px; padding: 0px; margin: 10px 0px 0px 0px; float:left; border-top: 2px solid #cacaca; border-bottom: 2px solid #cacaca;}
+.videos-list-left {background:url(images/testi-button-left.jpg); width:62px; height:150px; padding: 0px; margin: 10px 0px 0px 15px; float:left; cursor: pointer;}
+.videos-list-right {background:url(images/testi-button-right.jpg); width:62px; height:150px; padding: 0px; margin: 10px 0px 0px 0px; float:left; cursor: pointer;}
+.videos-list .sec {background: #fff; width:205px; height:123px; padding: 0px; margin: 10px 33px 0px 33px; float:left; border: 2px solid #cacaca;}
+.videos-list .sec .tb {background: #fff; width:185px; height:103px; padding: 0px; margin: 8px 0px 0px 8px; float:left; border: 2px solid #cacaca;}
+
+	
